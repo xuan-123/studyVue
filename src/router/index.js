@@ -1,32 +1,38 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+const Find = () => import('../view/Find/Find')
+const Video = () => import('../view/Video/Video')
 const Me  = () => import('../view/Me/Me')
-const Cate = () => import('../view/Cate/Cate')
-const Menu = () => import('../view/Menu/Menu')
-const Home = () => import('../view/Home/Home')
+const YunCun = () => import('../view/YunCun/YunCun')
+const Account = () => import('../view/Account/Account')
 Vue.use(VueRouter)
 
 const routes = [
     {
         path:'',
-        redirect:'/home'
+        redirect:'/find'
     },
     {
-        path:'/home',
-        component:Home
+        path:'/find',
+        component:Find
     },
     {
-        path:'/cate',
-        component:Cate
-    },
-    {
-        path:'/menu',
-        component:Menu
+        path:'/video',
+        component:Video
     },
     {
         path:'/me',
         component:Me
+    },
+    {
+        path:'/yuncun',
+        component:YunCun
+    },
+    {
+        path:'/account',
+        component:Account
     }
+   
 ]
 const router = new VueRouter({
     routes
