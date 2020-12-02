@@ -1,6 +1,6 @@
 <template>
     <div>
-        home
+        find
     </div>
 </template>
 <script>

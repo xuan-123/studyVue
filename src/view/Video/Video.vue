@@ -1,6 +1,6 @@
 <template>
     <div>
-        cate    
+        video    
     </div>
 </template>
 <script>
