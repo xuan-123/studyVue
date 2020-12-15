@@ -1,10 +1,14 @@
 <template>
     <div>
-        video    
+        video
+      
     </div>
 </template>
 <script>
+
 export default {
-    
+    components:{
+       
+    }
 }
 </script>

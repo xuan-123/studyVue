@@ -3,13 +3,17 @@
       yuncun
       <button @click="an()">退出登录</button>
       <div @click="myMsg()">我的信息</div>
-      
+     
   </div>
 </template>
 
 <script>
  import {request} from '../../request/index'
+
 export default {
+  components:{
+  
+  },
   data(){
     return{
       data:[]

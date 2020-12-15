@@ -168,8 +168,8 @@ export default {
     }
     .btnLogin{
         outline:none;
-         width: 500px;
-          height: 60px;
+        width: 500px;
+        height: 60px;
         border: none;
         background-color: #fff;
         color:#C20C0C;

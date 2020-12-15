@@ -13,3 +13,6 @@ input, textarea{outline:none;resize:none;}
 .fl{float:left;}      
 .fr{float:right;}     
 .clearFix:after{display:block;content:'';clear:both;zoom:1;}  
+a,button,input,optgroup,select,textarea{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    }
